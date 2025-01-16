@@ -14,4 +14,11 @@ public class ctrlshiftp {
         System.out.println(s);
     }
 
+    static boolean even(int num) {
+        if (num % 2 == 0) {
+            return true;
+        }
+        return false;
+    }
+
 }
